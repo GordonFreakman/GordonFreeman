@@ -1,0 +1,58 @@
+defaultflex frame 29		// baseline mouth closed expression
+
+flex "AU42"		frame 5			// eyes		half_closed
+	
+flexpair "AU1" 1	frame 6 decay 0.3	// brow 	inner_raiser	
+flexpair "AU2" 1.5	frame 7	decay 0.5	// brow 	outer_raiser
+flexpair "AU1AU2" 1.5	frame 8	decay 0.5	// brow		brow_raiser	
+flexpair "AU4" 1.5	frame 9	decay 0.5	// brow 	lowerer 	
+flexpair "AU1AU4" 1.5	frame 10 decay 0.5	// brow		lowerer_inner_raiser 
+flexpair "AU2AU4" 1.5	frame 11 decay 0.5	// brow		lowerer_outer_raiser 
+
+flexpair "AU12" 1.0 	frame 12 position 0.5	// mouth	corner_puller
+flexpair "AU12" 1.0	frame 13 position 1.0	// mouth
+flexpair "AU12AU25" 1.0	frame 14		// mouth	open_mouth_smile
+
+
+flexpair "AU15" 1.0	frame 15		// mouth	corner_depressor 
+flexpair "AU17" 1.0	frame 16 		// mouth	chin_raiser	
+flexpair "AU14" 1.0	frame 18 		// mouth	dimpler
+
+flexpair "AU10" 1.0	frame 36		// mouth	upper_raiser	
+flex "AU10SL"		frame 37		// mouth	sneer_left
+// flex "AU10SR"	frame 16		// mouth	sneer_right
+flex "AU16"		frame 17 		// mouth 	lower_lip_depressor
+
+flexpair "AU6" 1.0	frame 38 position 0.6	// nose		cheek_raiser
+flexpair "AU6" 1.0	frame 39 position 1.0	// nose			
+flexpair "AU9" 1.0	frame 19		// nose 	wrinkler	
+
+flexpair "AU25" 1.0	frame 21		// phoneme	part
+flexpair "AU18" 1.0 	frame 22 position 0.8	// phoneme	puckerer
+flexpair "AU18" 1.0 	frame 23 position 1.0	// phoneme	puckerer
+flexpair "AU22" 1.0 	frame 24 		// phoneme	funneler	
+flexpair "AU20" 1.0 	frame 25		// phoneme	stretcher	
+flex "AU32"		frame 26		// phoneme	bite		
+flex "AU24"		frame 27		// phoneme	presser		
+
+flex "AU38"		frame 20		// nose		dilator		
+
+flex "AU31"		frame 30		// phoneme	jaw_clencher	
+flexpair "AU26" 1.5 	frame 31 		// phoneme	jaw_dropped	
+flexpair "AU27" 1.5	frame 32 		// phoneme	mouth_stretch	
+
+flexpair "AU26Z" 1.5	frame 33		// phoneme	wide_jaw_dropped
+flexpair "AU27Z" 1.5	frame 34 		// phoneme	wide_mouth_stretch
+flexpair "AU22Z" 1.0 	frame 35 		// phoneme	wide_funneler
+
+// flex "AU11"		frame 00		// nose 	furrow_deepener	
+flexpair "AU13"	 1.5	frame 28		// mouth	cheek_puffer	
+flex "AD96L"		frame 40		// mouth	mouthpull_left
+flex "AD96R"		frame 41		// mouth	mouthpull_right
+flex "AD30L"		frame 42		// mouth	jaw_left
+flex "AD30R"		frame 43		// mouth	jaw_right
+flex "AD32"		frame 44 position 0.7	// mouth	lip_bite
+flex "AD32"		frame 45 position 1.0	// mouth	lip_bite
+
+
+
