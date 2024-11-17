@@ -36,6 +36,7 @@ $bodygroup "Ponytail"
 $bodygroup "Glasses"
 {
 	studio "Gordon_Glasses_Highpoly.smd"
+	studio "Gordon_Glasses_XSI.smd"
 	blank
 }
 /*
