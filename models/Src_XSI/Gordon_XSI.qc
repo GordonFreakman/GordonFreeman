@@ -1,7 +1,7 @@
 
 $modelname gfreakman\bonus\gordon_xsi.mdl
 
-$cdmaterials models\gordon_xsi
+$cdmaterials models\gfreakman\gordon_xsi
 
 //start eye/face data
 $eyeposition 0 0 70

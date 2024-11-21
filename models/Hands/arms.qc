@@ -7,7 +7,7 @@ View model Hands
 */
 
 $modelname gfreakman/gordonf_hands.mdl
-$cdmaterials models/gordon/
+$cdmaterials models/gfreakman/gordon/
 
 $body studio "C_Hands.smd"
 

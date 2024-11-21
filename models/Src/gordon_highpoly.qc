@@ -53,8 +53,8 @@ $contents "solid"
 $illumposition -0.478 -0.001 35.329
 
 $eyeposition 0 0 70
-$cdmaterials "models\gordon\hq\"
-$cdmaterials "models\gordon\"
+$cdmaterials "models\gfreakman\gordon\hq\"
+$cdmaterials "models\gfreakman\gordon\"
 $cdmaterials "models\kleiner\"
 $cdmaterials "models\Humans\Male\"
 
