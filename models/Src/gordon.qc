@@ -186,3 +186,17 @@ $collisionjoints ragdoll {
 	$jointcollide "valvebiped.bip01_r_forearm" "valvebiped.bip01_r_thigh"
 }
 $sequence ragdoll 		"ragdoll_pose" 		FPS 30 		activity ACT_DIERAGDOLL 1
+
+$lod 30 
+{
+	replacemodel "Gordon" "Gordon_Highpoly_LOD5"
+	replacemodel "Gordon_Glasses.smd" "Gordon_Glasses_LOD"
+	replacemodel "HEV_2003.smd" "HEV_2003_LOD"
+	replacemodel "HEV_2004.smd" "HEV_2004_LOD"
+	$include "../Humans/lowesthumanskeleton.qci"	
+	$include "../Humans/lowesthumannohelpers.qci"	
+	replacematerial "eyeball_r" "gordon_facemap"
+	replacematerial "eyeball_l" "gordon_facemap"
+	replacematerial "mouth" "gordon_facemap"
+	nofacial
+}
