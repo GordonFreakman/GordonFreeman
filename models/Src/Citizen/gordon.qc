@@ -23,8 +23,8 @@ $model "gordon" "gordon_citizen.smd" {
 
 $texturegroup "drumskin01"
 {
+{ "gordon_facemap_g01" }
 { "gordon_facemap" }
-{ "..\..\..\gfreakman\gordon\gordon_facemap" }
 }
 
 $bodygroup "Glasses"
