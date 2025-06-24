@@ -191,8 +191,9 @@ $lod 30
 {
 	replacemodel "Gordon" "Gordon_Highpoly_LOD5"
 	replacemodel "Gordon_Glasses.smd" "Gordon_Glasses_LOD"
-	replacemodel "HEV_2003.smd" "HEV_2003_LOD"
-	replacemodel "HEV_2004.smd" "HEV_2004_LOD"
+	//TODO: despite studiomdl loading the LOD model, it just doesn't apply.
+	//replacemodel "HEV_2003.smd" "HEV_2003_LOD"
+	//replacemodel "HEV_2004.smd" "HEV_2004_LOD"
 	$include "../Humans/lowesthumanskeleton.qci"	
 	$include "../Humans/lowesthumannohelpers.qci"	
 	replacematerial "eyeball_r" "gordon_facemap"
